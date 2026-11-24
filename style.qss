@@ -20,3 +20,49 @@ QWidget {
 QPushButton {
     padding: 5px 12px;
 }
+
+QWidget#aboutWindow {
+    background-color: #f3f5f9;
+    font-family: "Segoe UI";
+}
+
+#aboutCard {
+    background-color: #ffffff;
+    border: 1px solid #e3e8f0;
+    border-radius: 20px;
+}
+
+#profilePicture {
+    background-color: #e8eefc;
+    color: #5368b1;
+    border: 4px solid #dfe6fb;
+    border-radius: 68px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#aboutName {
+    color: #202b3c;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#aboutDescription {
+    color: #68758a;
+    font-size: 14px;
+}
+
+#aboutEmail {
+    color: #45536a;
+    font-size: 14px;
+}
+
+#githubLink {
+    color: #5368b1;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#githubLink:hover {
+    color: #394b91;
+}

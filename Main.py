@@ -1,3 +1,4 @@
+from About import AboutWindow
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import (
     QApplication,
@@ -15,6 +16,7 @@ from PySide6.QtWidgets import (
 class HeatTransfer(QWidget):
     def __init__(self):
         super().__init__()
+        self.about_window = AboutWindow()
         self.setupUI()
 
     def setupUI(self):
@@ -151,7 +153,7 @@ class HeatTransfer(QWidget):
         pass  # my code here
 
     def about_button_method(self):
-        pass  # my code here
+        self.about_window.show()
 
     def timer_method(self):
         pass  # my code here
