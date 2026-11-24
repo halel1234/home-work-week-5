@@ -1,0 +1,22 @@
+QWidget {
+    font-size: 13px;
+}
+
+#leftBody {
+    background-color: #e88767;
+    border: 1px solid #6f5145;
+}
+
+#rightBody {
+    background-color: #78a8c8;
+    border: 1px solid #425b6b;
+}
+
+#connector {
+    background-color: #888888;
+    min-width: 90px;
+}
+
+QPushButton {
+    padding: 5px 12px;
+}
